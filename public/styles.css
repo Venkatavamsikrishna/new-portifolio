@@ -590,6 +590,7 @@ profile-photo .img{
   flex: 0 0 auto;
   width: 50%; }
 
- /* .skills-section  .text-blue {
-    color: blue; 
-} */
+ .skills-section  .text-blue {
+   color: greenyellow; /* Sets the text color to blue */
+    ; 
+}
