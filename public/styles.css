@@ -549,7 +549,7 @@ profile-photo .img{
 
 .skills-section .progress {
   height: 20px;
-  background-color: #e9ecef;
+  background-color: transparent;
   border-radius: 5px;
   overflow: hidden;
 }
