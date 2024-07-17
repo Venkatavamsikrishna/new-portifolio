@@ -138,3 +138,73 @@ footer a:not(.nav-link) {
   .page-break {
     padding-top: 5rem;
     page-break-before: always; } }
+    .skills-section {
+      background-color: #f8f9fa;
+      padding: 50px 0;
+  }
+  
+  .skills-section .h3 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #343a40;
+  }
+  
+  .skills-section label h4 {
+      color: #343a40;
+  }
+  
+  .skills-section .progress {
+      height: 20px;
+      background-color: #e9ecef;
+      border-radius: 5px;
+      overflow: hidden;
+  }
+  
+  .skills-section .progress-bar {
+      height: 100%;
+      border-radius: 5px;
+      line-height: 20px;
+      color: white;
+      text-align: center;
+      transition: width 0.6s ease;
+  }
+  
+  .skills-section .progress-bar.bg-primary {
+      background-color: #007bff;
+  }
+  
+  .skills-section .progress-bar.bg-primary[aria-valuenow="90"] {
+      width: 90%;
+  }
+  
+  .skills-section .progress-bar.bg-primary[aria-valuenow="85"] {
+      width: 85%;
+  }
+  
+  .skills-section .progress-bar.bg-primary[aria-valuenow="80"] {
+      width: 80%;
+  }
+  
+  .skills-section .progress-bar.bg-primary[aria-valuenow="75"] {
+      width: 75%;
+  }
+  
+  .skills-section .progress-bar.bg-primary[aria-valuenow="70"] {
+      width: 70%;
+  }
+  
+  .skills-section .progress-bar.bg-primary[aria-valuenow="60"] {
+      width: 60%;
+  }
+  
+  .skills-section .progress-bar.bg-primary[aria-valuenow="50"] {
+      width: 50%;
+  }
+  
+  .skills-section span {
+      font-weight: 500;
+      margin-bottom: 10px;
+      display: inline-block;
+      color: #495057;
+  }
+  
