@@ -7497,6 +7497,6 @@ hr {
 
 .hover-effect:hover {
   transform: translateY(-2px); }
- .text-blue {
+  .skills-section .text-blue {
     color: blue; /* Sets the text color to blue */
 }
