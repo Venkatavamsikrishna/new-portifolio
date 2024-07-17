@@ -587,24 +587,7 @@ profile-photo .img{
   }
 }
 .col-md-6 {
-  width: 50%;
-  box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
-  padding: 0 15px; /* Adjust the padding as needed */
-
-}
-
-/* For better responsiveness and alignment on larger screens, you might want to use media queries */
-@media (min-width: 768px) {
-  .col-md-6 {
-    width: 50%;
-  }
-}
-
-/* Optional: Clearfix to clear floats */
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-}
+  flex: 0 0 auto;
+  width: 50%; }
 
 
