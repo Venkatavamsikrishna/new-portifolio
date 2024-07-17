@@ -590,6 +590,7 @@ profile-photo .img{
   flex: 0 0 auto;
   width: 50%; }
 
-.mb-2{
-  color :blue;
+  .text-blue {
+    color: blue; /* Sets the text color to blue */
 }
+
